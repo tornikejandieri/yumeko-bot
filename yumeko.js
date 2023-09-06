@@ -15,9 +15,10 @@ client.on("ready", () => {
     console.log(`${client.user.tag} is online!`);
 });
 
-const TOKEN = process.env.BOT_TOKEN;
+const TOKEN =
+    "MTE0ODY5Nzk1MjI5NTA2NzY3OQ.GdHYHt.dUf8KTjqg-U5cEAuocno7XwHt85fSJb4PGuLhc";
 const PREFIX = "y!";
-const apiKey = process.env.API_KEY;
+const apiKey = "AIzaSyD41G-yKF8iC6femzskRptkjpVqj_88QB";
 
 const fetchAnimeGif = async (keyword) => {
     try {
