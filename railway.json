@@ -9,14 +9,14 @@
         "numReplicas": 1,
         "restartPolicyType": "ALWAYS"
     },
-    "env": {
+    "secrets": {
         "BOT_TOKEN": {
-            "secret": true,
-            "required": true
+            "generator": "value",
+            "type": "string"
         },
         "API_KEY": {
-            "secret": true,
-            "required": true
+            "generator": "value",
+            "type": "string"
         }
     }
 }
