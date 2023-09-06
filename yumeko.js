@@ -22,7 +22,7 @@ const apiKey = process.env.API_KEY;
 const fetchAnimeGif = async (keyword) => {
     try {
         const response = await fetch(
-            `https://tenor.googleapis.com/v2/search?q=anime${keyword}&key=${apiKey}Q&client_key=yumeko_bot&contentfilter=off&media_filter=anime`
+            `https://tenor.googleapis.com/v2/search?q=anime${keyword}&key=${apiKey}&client_key=yumeko_bot&contentfilter=off&media_filter=anime`
         );
 
         if (!response.ok) {
